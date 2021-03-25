@@ -5,7 +5,7 @@ import java.io.*;
 
 
 
-public class example1_throws {
+public class Example1Throws {
     // IOException, checked
     public void read_file() throws FileNotFoundException, IOException {
         File archivo = new File("C:\\Users\\KimO\\Escritorio\\Tarea_Extraclase\\Tarea_Extraclase");
@@ -37,7 +37,7 @@ public class example1_throws {
     }
 
     public static void main(String[] args) {
-        example1_throws file = new example1_throws();
+        Example1Throws file = new Example1Throws();
 
         file.read_file2();
 
