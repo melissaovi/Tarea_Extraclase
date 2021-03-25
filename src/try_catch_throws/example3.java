@@ -1,4 +1,4 @@
-package try_catch;
+package try_catch_throws;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
