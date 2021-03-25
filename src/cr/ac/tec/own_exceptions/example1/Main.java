@@ -15,7 +15,7 @@ public class Main {
 
 
         }catch(MyException e){
-            System.out.println("No se puede registrar el usuario porque: " + e.getMessage());
+            System.out.println("the user cannot be registered because: " + e.getMessage());
         }
 
     }

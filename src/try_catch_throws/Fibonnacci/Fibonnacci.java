@@ -1,4 +1,4 @@
-package try_catch_throws.Fib;
+package try_catch_throws.Fibonnacci;
 
 public class Fibonnacci {
 

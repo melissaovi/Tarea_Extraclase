@@ -6,11 +6,11 @@ public class Helper {
     }
     public void validatePassword(String pass,String repass) throws MyException{
         if(!pass.equals(repass)){
-            throw new MyException("La contraseña no coincide"); //se tira la excepcion hacia MyException
+            throw new MyException("Password does not match"); //se tira la excepcion hacia MyException
 
         }
         if(pass.length()<8){
-            throw new MyException("La contraseña no es suficientemente larga");
+            throw new MyException("The password isn't long enough");
         }
 
     }

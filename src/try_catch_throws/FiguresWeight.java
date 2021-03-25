@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.util.InputMismatchException;
 
 //checked
-public class example2 {
+public class FiguresWeight {
     public static void main(String[] args) {
 
         Scanner entry = new Scanner(System.in);

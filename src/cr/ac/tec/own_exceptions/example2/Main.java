@@ -30,7 +30,7 @@ public class Main {
 
 
         if (mail.length()<=2){
-            throw new MyException("the mail cannot be less than two charactersmm,,"); // throw, throw a bug manually
+            throw new MyException("the mail cannot be less than two characters"); // throw, throw a bug manually
 
 
         }else {

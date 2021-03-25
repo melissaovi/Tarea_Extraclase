@@ -2,7 +2,7 @@ package try_catch_throws;
 
 import javax.swing.*;
 //unchecked, RunTimeException
-public class example1 {
+public class Division {
     public static void main(String[] args) {
 
 
